@@ -22,17 +22,18 @@ describe('Las variables en Javascript', () => {
 describe('Comparaciones en Javascript', () => {
     it("usando ===", () => {
         const number = 20;
-        const expresion = false;
+        const expresion = number === 19;
         //completa la asignación usando number y el comparador ===
-        
+
         expect(expresion).to.equal(false)
     })
 
     it("usando !==", () => {
         const language = "Javascript";
-        const expresion = false;
+        const expresion = language !== "Javascript";
+
         //completa la asignación usando language y el comparador !==
-        
+
         expect(expresion).to.equal(false)
     })
 })
